@@ -1,2 +1,3 @@
 export { HomeView } from "./home";
-export { BasicsView } from "./basics";
+export { MusicView } from "./music";
+export { NftView } from "./nft";
