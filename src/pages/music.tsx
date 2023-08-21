@@ -6,7 +6,7 @@ const Music: NextPage = (props) => {
   return (
     <div>
       <Head>
-        <title>LCRT - Music</title>
+        <title>LCRT - MUSIC</title>
         <meta
           name="description"
           content="Basic Functionality"

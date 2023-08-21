@@ -6,7 +6,7 @@ const NFT: NextPage = (props) => {
   return (
     <div>
       <Head>
-        <title>Solana Scaffold</title>
+        <title>LCRT - NFT</title>
         <meta
           name="description"
           content="Basic Functionality"

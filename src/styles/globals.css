@@ -8,9 +8,8 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-   background-image:
-    linear-gradient(to bottom, rgba(104, 104, 104, 0), rgb(0, 0, 0)),
-    url("/img/craiyon.png");
+    background-image: linear-gradient(#069072, rgb(0, 0, 0));
+   
 }
 
 a {
