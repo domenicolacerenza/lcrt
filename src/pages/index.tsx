@@ -9,7 +9,7 @@ const Home: NextPage = (props) => {
         <title>LCRT XYZ</title>
         <meta
           name="description"
-          content="Solana Scaffold"
+          content="Nico Lacerenza Visual Sound Artist LCRT XYZ"
         />
       </Head>
       <HomeView />

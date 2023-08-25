@@ -11,6 +11,10 @@ const NFT: NextPage = (props) => {
           name="description"
           content="Basic Functionality"
         />
+        <script
+      type="module"
+      src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"
+    ></script>
       </Head>
       <NftView />
     </div>
