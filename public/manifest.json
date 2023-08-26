@@ -3,7 +3,7 @@
     "short_name": "LCRT",
     "icons": [
       {
-        "src": "/favicon.ico",
+        "src": "/howl.png",
         "sizes": "any",
         "type": "image/png",
         "purpose": "any"

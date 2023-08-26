@@ -28,17 +28,10 @@ const App: FC<AppProps> = ({ Component, pageProps }) => {
       <meta name="theme-color" content="#000000" />
 
       <link rel="apple-touch-icon" href="/howl.png" />
-      
-      <link rel="icon" type="image/png" sizes="any" href="/favicon.ico" />
-      <link rel="manifest" href="/manifest.json" />
-      <link rel="shortcut icon" href="/favicon.ico" />
 
-      <meta property="og:type" content="website" />
-      <meta property="og:title" content="LCRT XYZ" />
-      <meta property="og:description" content="Nico Lacerenza - Visual Sound Artist" />
-      <meta property="og:site_name" content="LCRT XYZ" />
-      <meta property="og:url" content="https://www.lcrt.xyz" />
-      <meta property="og:image" content="https://www.lcrt.xyz/favicon.ico" />
+      <link rel="icon" type="image/png" sizes="any" href="/howl.png" />
+      <link rel="manifest" href="/manifest.json" />
+      <link rel="shortcut icon" href="/howl.png" />
       <ContextProvider>
         <div className="flex flex-col h-screen w-full">
           <Notifications />
