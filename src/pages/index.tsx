@@ -11,6 +11,9 @@ const Home: NextPage = (props) => {
           name="description"
           content="Nico Lacerenza Visual Sound Artist LCRT XYZ"
         />
+        <link rel="apple-touch-icon" href="/howl.png" />
+
+        <link rel="shortcut icon" href="/howl.png" />
       </Head>
       <HomeView />
     </div>
