@@ -5,7 +5,7 @@ import Link from "next/link";
 export const MusicView: FC = ({ }) => {
 
   return (
-    <div className="flex h-auto flex-col place-content-center p-8 mt-12">
+    <div className="flex h-auto flex-col place-content-center p-8 mt-8">
       <div className="carousel carousel-center max-w-md lg:max-w-full p-4 space-x-4 bg-transparent gap-4 rounded-box">
 
         <div className="carousel-item">
@@ -27,7 +27,7 @@ export const MusicView: FC = ({ }) => {
         </div>
       </div>
 
-      <div className="flex flex-row gap-2 w-fit mx-auto mt-4">
+      <div className="flex flex-row gap-2 w-fit mx-auto mt-8 mb-20 ">
         <Link className="mx-auto" href="https://linktr.ee/lcrt"> <button className="btn btn-outline btn-error">STREAM</button>
         </Link>
 

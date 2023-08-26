@@ -9,7 +9,7 @@ export const NftView: FC = ({ }) => {
   return (
     <div className="flex h-auto flex-col place-content-center p-8">
 
-      <Link className="mx-auto mt-4" href="https://exchange.art/lcrt"> <button className="btn btn-outline btn-warning">NFT ON EXCHANGE.ART</button>
+      <Link className="mx-auto" href="https://exchange.art/lcrt"> <button className="btn btn-outline btn-warning">NFT ON EXCHANGE.ART</button>
       </Link>
 
       <div className="carousel carousel-center max-w-md lg:max-w-full p-4 space-x-4 bg-transparent gap-4 rounded-box">
