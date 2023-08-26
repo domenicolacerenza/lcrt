@@ -6,9 +6,9 @@ export const Footer: FC = () => {
         <div className="flex flex-row w-full place-content-between fixed bottom-0 w-screen z-50">
 
             <div className='items-start m-4'>
-                <img className="w-40" src="img/logo copy.png" />
+                <img className="w-44" src="img/logo copy.png" />
                 <p className="font-bold">
-                    LCRT - Nico Lacerenza <br />
+                    Nico Lacerenza <br />
                     Visual/Sound Artist
                 </p>
             </div>

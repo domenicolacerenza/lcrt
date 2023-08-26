@@ -6,10 +6,10 @@ import { useAutoConnect } from '../contexts/AutoConnectProvider';
 import NetworkSwitcher from './NetworkSwitcher';
 import NavElement from './nav-element';
 
- const WalletMultiButtonDynamic = dynamic(
+const WalletMultiButtonDynamic = dynamic(
   async () => (await import('@solana/wallet-adapter-react-ui')).WalletMultiButton,
   { ssr: false }
-); 
+);
 
 export const AppBar: React.FC = () => {
   const { autoConnect, setAutoConnect } = useAutoConnect();
@@ -18,50 +18,50 @@ export const AppBar: React.FC = () => {
     <div>
       {/* NavBar / Header */}
       <div className="navbar w-full">
-      <img className='w-40 mx-auto' src="/img/LOGO.png" /> 
+        <img className='w-40 ml-6' src="/img/LOGO.png" />
         <div className="hidden md:inline-flex justify-items gap-6">
-            <ul className="absolute top-4 right-4 menu menu-horizontal text-2xl rounded-box bg-base-100 ">
-              <li>
-                <NavElement
-                  label="Home"
-                  href="/"
-                  navigationStarts={() => setIsNavOpen(false)}
-                />
-              </li>
-              <li>
-                <NavElement
-                  label="Music"
-                  href="/music"
-                  navigationStarts={() => setIsNavOpen(false)}
-                />
-              </li>
-              <li>
-                <NavElement
-                  label="NFT"
-                  href="/nft"
-                  navigationStarts={() => setIsNavOpen(false)}
-                />
-              </li>
-            </ul>
-          </div>
-          <label
-            htmlFor="my-drawer"
-            className="btn-gh items-end justify-between md:hidden mr-6"
-            onClick={() => setIsNavOpen(!isNavOpen)}>
-            <div className="HAMBURGER-ICON space-y-2.5 ml-5">
-              <div className={`h-0.5 w-8 bg-black ${isNavOpen ? 'hidden' : ''}`} />
-              <div className={`h-0.5 w-8 bg-black ${isNavOpen ? 'hidden' : ''}`} />
-              <div className={`h-0.5 w-8 bg-black ${isNavOpen ? 'hidden' : ''}`} />
-            </div>
-            <div className={`absolute block h-0.5 w-8 animate-pulse bg-black ${isNavOpen ? "" : "hidden"}`}
-              style={{ transform: "rotate(45deg)" }}>
-            </div>
-            <div className={`absolute block h-0.5 w-8 animate-pulse bg-black ${isNavOpen ? "" : "hidden"}`}
-              style={{ transform: "rotate(135deg)" }}>
-            </div>
-          </label>
+          <ul className="absolute top-4 right-4 menu menu-horizontal text-2xl rounded-box bg-base-100 ">
+            <li>
+              <NavElement
+                label="Home"
+                href="/"
+                navigationStarts={() => setIsNavOpen(false)}
+              />
+            </li>
+            <li>
+              <NavElement
+                label="Music"
+                href="/music"
+                navigationStarts={() => setIsNavOpen(false)}
+              />
+            </li>
+            <li>
+              <NavElement
+                label="NFT"
+                href="/nft"
+                navigationStarts={() => setIsNavOpen(false)}
+              />
+            </li>
+          </ul>
         </div>
+        <label
+          htmlFor="my-drawer"
+          className="btn-gh items-end justify-between md:hidden mr-6"
+          onClick={() => setIsNavOpen(!isNavOpen)}>
+          <div className="HAMBURGER-ICON space-y-2.5 ml-5">
+            <div className={`h-0.5 w-8 bg-black ${isNavOpen ? 'hidden' : ''}`} />
+            <div className={`h-0.5 w-8 bg-black ${isNavOpen ? 'hidden' : ''}`} />
+            <div className={`h-0.5 w-8 bg-black ${isNavOpen ? 'hidden' : ''}`} />
+          </div>
+          <div className={`absolute block h-0.5 w-8 animate-pulse bg-black ${isNavOpen ? "" : "hidden"}`}
+            style={{ transform: "rotate(45deg)" }}>
+          </div>
+          <div className={`absolute block h-0.5 w-8 animate-pulse bg-black ${isNavOpen ? "" : "hidden"}`}
+            style={{ transform: "rotate(135deg)" }}>
+          </div>
+        </label>
       </div>
-   
+    </div>
+
   );
 };
