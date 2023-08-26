@@ -17,7 +17,7 @@ export const AppBar: React.FC = () => {
   return (
     <div>
       {/* NavBar / Header */}
-      <div className="navbar w-full">
+      <div className="navbar w-full place-content-between">
         <img className='w-40 ml-6' src="/img/LOGO.png" />
         <div className="hidden md:inline-flex justify-items gap-6">
           <ul className="absolute top-4 right-4 menu menu-horizontal text-2xl rounded-box bg-base-100 ">
@@ -46,7 +46,7 @@ export const AppBar: React.FC = () => {
         </div>
         <label
           htmlFor="my-drawer"
-          className="btn-gh items-end justify-between md:hidden mr-6"
+          className="btn-gh items-end justify-between md:hidden mr-12"
           onClick={() => setIsNavOpen(!isNavOpen)}>
           <div className="HAMBURGER-ICON space-y-2.5 ml-5">
             <div className={`h-0.5 w-8 bg-black ${isNavOpen ? 'hidden' : ''}`} />
