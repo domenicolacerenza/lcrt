@@ -5,7 +5,7 @@ import Link from "next/link";
 export const MusicView: FC = ({ }) => {
 
   return (
-    <div className="flex h-auto flex-col place-content-center p-8">
+    <div className="flex h-auto flex-col place-content-center p-8 mt-12">
       <div className="carousel carousel-center max-w-md lg:max-w-full p-4 space-x-4 bg-transparent gap-4 rounded-box">
 
         <div className="carousel-item">

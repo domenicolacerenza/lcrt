@@ -2,7 +2,7 @@ import { FC } from 'react';
 
 export const HomeView: FC = ({ }) => {
   return (
-    <div className='flex h-auto flex-col place-content-center p-8'>
+    <div className='flex h-auto flex-col place-content-center p-8 mt-20'>
       <div className="carousel rounded-box gap-4">
         <div className="carousel-item">
           <img className='w-96' src="/img/XDXDX.jpg" alt="XDXDX" />
