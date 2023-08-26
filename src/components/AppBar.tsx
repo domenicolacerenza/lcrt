@@ -18,7 +18,7 @@ export const AppBar: React.FC = () => {
     <div>
       {/* NavBar / Header */}
       <div className="navbar w-full place-content-between">
-        <img className='w-40 ml-6' src="/img/LOGO.png" />
+        <Link href={'/'}><img className='w-40 ml-6' src="/img/LOGO.png"/> </Link>
         <div className="hidden md:inline-flex justify-items gap-6">
           <ul className="absolute top-4 right-4 menu menu-horizontal text-2xl rounded-box bg-base-100 ">
             <li>
