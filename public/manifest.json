@@ -1,0 +1,17 @@
+{
+    "name": "LCRT XYZ",
+    "short_name": "LCRT",
+    "icons": [
+      {
+        "src": "/favicon.ico",
+        "sizes": "any",
+        "type": "image/png",
+        "purpose": "any"
+      }
+    ],
+    "theme_color": "#000000",
+    "background_color": "#069072",
+    "start_url": "/",
+    "display": "standalone",
+    "orientation": "portrait"
+  }
