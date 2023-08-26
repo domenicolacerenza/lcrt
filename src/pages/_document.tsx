@@ -12,6 +12,8 @@ class MyDocument extends Document {
       <Html>
         <Head>
         <link rel="shortcut icon" href="/favicon.ico"/>
+        <link rel="apple-touch-icon" href="/howl.png" />
+        <link rel="manifest" href="/manifest.json" />
         </Head>
         <body>
           <Main />

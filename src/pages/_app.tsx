@@ -25,7 +25,7 @@ const App: FC<AppProps> = ({ Component, pageProps }) => {
       <meta name="msapplication-config" content="/icons/browserconfig.xml" />
       <meta name="msapplication-TileColor" content="#069072 " />
       <meta name="msapplication-tap-highlight" content="no" />
-      <meta name="theme-color" content="#000000" />
+      <meta name="theme-color" content="#069072" />
 
       <link rel="apple-touch-icon" href="/howl.png" />
 
