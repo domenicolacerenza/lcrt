@@ -27,7 +27,7 @@ const App: FC<AppProps> = ({ Component, pageProps }) => {
       <meta name="msapplication-tap-highlight" content="no" />
       <meta name="theme-color" content="#000000" />
 
-      <link rel="apple-touch-icon" href="/favicon.ico" />
+      <link rel="apple-touch-icon" href="/howl.png" />
       
       <link rel="icon" type="image/png" sizes="any" href="/favicon.ico" />
       <link rel="manifest" href="/manifest.json" />
