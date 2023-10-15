@@ -3,64 +3,43 @@ import { FC } from "react";
 import Link from "next/link";
 import React, { Suspense } from 'react';
 import Spline from '@splinetool/react-spline';
+import { Card } from "components/Card";
 
 export const NftView: FC = ({ }) => {
 
   return (
-    <div className="flex h-auto flex-col place-content-center p-8">
+    <div className='md:hero mx-auto'>
+       
 
-      <Link className="mx-auto" href="https://exchange.art/lcrt"> <button className="btn btn-outline btn-warning">NFT ON EXCHANGE.ART</button>
-      </Link>
+      <div className="md:static flex max-h-screen md:max-h-fit flex-wrap mx-auto mt-56 md:mt-0 content-start place-content-center gap-8">
+       
+        <Card id={1} title={"GLASS MASK #01"} subtitle={"AI GENERATED MASK"} content={""} modalContent={<div></div>} modalFrameSrc="" modalWindow={<br></br>}
+          imgSrc={"/img/00004.jpg"}> 
+        </Card>
 
-      <div className="carousel carousel-center max-w-md lg:max-w-full p-4 space-x-4 bg-transparent gap-4 rounded-box">
+        <Card id={2} title={"MSMS SLIDE #01"} subtitle={"THE ORIGINAL PLASTIC SLIDE - MSMS UL7RA"} content={""} modalContent={<br></br>} modalFrameSrc="" modalWindow={<br></br>}
+          imgSrc={"/img/00005.png"}>
+        </Card>
 
-        <div className="carousel-item">
-          <div className="card card-compact w-96 bg-black shadow-xl">
-            <figure><img src="/img/00004.jpg" alt="NFT" /></figure>
-            <div className="card-body">
-              <h2 className="card-title">GLASS MASK #01</h2>
-              <p>AI GENERATED MASK</p>
-            </div>
-          </div>
-        </div>
+        <Card title={"HOWL horse"} content={"3D SCULPTURE FOR - Al Chiar di Luna (HOWL)"}
+          imgSrc="/img/howl.png" id={3} subtitle={"Classic & Green"}
+          modalWindow={
+            <div className="carousel rounded-box content-start place-content-center w-fit h-96 max-w-xl min-w-full">
+              <div className="carousel-item">
+                <Spline className='rounded-[15px] w-96' scene="https://prod.spline.design/PBVV-Y8MGl0Fb-gN/scene.splinecode" />
+              </div>
+              <div className="carousel-item">
+                <Spline className='rounded-[15px] w-f' scene="https://prod.spline.design/we0nX6wiLvbs4lLy/scene.splinecode" />
+              </div>
+            </div>}
+        ></Card>
 
-        <div className="carousel-item">
-          <div className="card card-compact w-96 bg-black shadow-xl">
-            <figure><img src="/img/00005.png" alt="NFT" /></figure>
-            <div className="card-body">
-              <h2 className="card-title">MSMS SLIDE #01 </h2>
-              <p>THE ORIGINAL PLASTIC SLIDE - MSMS UL7RA</p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div className="carousel carousel-center max-w-md lg:max-w-full p-4 space-x-4 bg-transparent gap-4 rounded-box mb-20">
-
-        <div className="carousel-item">
-          <div className="card card-compact w-96 bg-transparent shadow-xl">
-            <Spline scene="https://prod.spline.design/we0nX6wiLvbs4lLy/scene.splinecode" />
-            <div className="card-body bg-black">
-              <h2 className="card-title">HOWL horse </h2>
-              <p>THE HOWL HORSE <br></br>
-              LCRT.XYZ</p>
-            </div>
-          </div>
-        </div>
-
-        <div className="carousel-item">
-          <div className="card card-compact w-96 bg-transparent shadow-xl">
-            <Spline scene="https://prod.spline.design/PBVV-Y8MGl0Fb-gN/scene.splinecode" />
-            <div className="card-body bg-black">
-              <h2 className="card-title">HOWL horse - Green</h2>
-              <p>THE HOWL HORSE - GREEN VERSION <br></br>
-              LCRT.XYZ</p>
-            </div>
-          </div>
+        <div className=" md:absolute md:bottom-20 md:left-0 mx-auto md:w-full text-center">
+          <Link  href="https://exchange.art/lcrt"> <button className="btn btn-outline btn-warning">NFT ON EXCHANGE.ART</button>
+          </Link>
         </div>
 
       </div>
-
     </div>
   );
 };

@@ -4,7 +4,7 @@ import { MusicView } from "../views";
 
 const Music: NextPage = (props) => {
   return (
-    <div>
+    <div className="w-full">
       <Head>
         <title>LCRT - MUSIC</title>
         <meta

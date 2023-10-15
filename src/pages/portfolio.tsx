@@ -1,20 +1,20 @@
 import type { NextPage } from "next";
 import Head from "next/head";
-import { NftView } from "../views";
+import { PortfolioView } from "../views";
 
-const NFT: NextPage = (props) => {
+const Portfolio: NextPage = (props) => {
   return (
-    <div className="w-screen">
+    <div className="w-full">
       <Head>
-        <title>LCRT - NFT</title>
+        <title>LCRT - Portfolio</title>
         <meta
           name="description"
           content="Basic Functionality"
         />
       </Head>
-      <NftView />
+      <PortfolioView />
     </div>
   );
 };
 
-export default NFT;
+export default Portfolio;

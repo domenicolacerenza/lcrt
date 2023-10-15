@@ -17,49 +17,47 @@ export const AppBar: React.FC = () => {
   return (
     <div>
       {/* NavBar / Header */}
-      <div className="navbar w-full place-content-between">
-        <Link href={'/'}><img className='w-40 ml-6' src="/img/LOGO.png"/> </Link>
+      <div className="navbar w-full h-auto place-content-between">
+        <Link href={'/'}><img className='w-32 ml-2 md:ml-6 justify-center' src="/img/LOGO.png"/> </Link>
         <div className="hidden md:inline-flex justify-items gap-6">
-          <ul className="absolute top-4 right-4 menu menu-horizontal text-2xl rounded-box bg-base-100 ">
+          <ul className="top-4 right-4 menu menu-horizontal text-2xl rounded-box bg-base-100 ">
             <li>
               <NavElement
                 label="Home"
                 href="/"
-                navigationStarts={() => setIsNavOpen(false)}
               />
             </li>
             <li>
               <NavElement
                 label="Music"
                 href="/music"
-                navigationStarts={() => setIsNavOpen(false)}
               />
             </li>
             <li>
               <NavElement
                 label="NFT"
                 href="/nft"
-                navigationStarts={() => setIsNavOpen(false)}
+              />
+            </li>
+            <li>
+              <NavElement
+                label="Portfolio"
+                href="/portfolio"
               />
             </li>
           </ul>
         </div>
         <label
-          htmlFor="my-drawer"
-          className="btn-gh items-end justify-between md:hidden mr-12"
-          onClick={() => setIsNavOpen(!isNavOpen)}>
-          <div className="HAMBURGER-ICON space-y-2.5 ml-5">
-            <div className={`h-0.5 w-8 bg-black ${isNavOpen ? 'hidden' : ''}`} />
-            <div className={`h-0.5 w-8 bg-black ${isNavOpen ? 'hidden' : ''}`} />
-            <div className={`h-0.5 w-8 bg-black ${isNavOpen ? 'hidden' : ''}`} />
-          </div>
-          <div className={`absolute block h-0.5 w-8 animate-pulse bg-black ${isNavOpen ? "" : "hidden"}`}
-            style={{ transform: "rotate(45deg)" }}>
-          </div>
-          <div className={`absolute block h-0.5 w-8 animate-pulse bg-black ${isNavOpen ? "" : "hidden"}`}
-            style={{ transform: "rotate(135deg)" }}>
-          </div>
-        </label>
+            htmlFor="my-drawer"
+            className="btn btn-square p-4 border-0 btn-lg bg-transparent mx-4 md:hidden">
+
+
+            <div className="space-y-2.5">
+              <div className={`h-0.5 w-8 bg-white`} />
+              <div className={`h-0.5 w-8 bg-white`} />
+              <div className={`h-0.5 w-8 bg-white`} />
+            </div>
+          </label>
       </div>
     </div>
 

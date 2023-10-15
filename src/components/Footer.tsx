@@ -3,17 +3,17 @@ import Link from 'next/link';
 import Image from 'next/image';
 export const Footer: FC = () => {
     return (
-        <div className="flex flex-row w-full place-content-between fixed bottom-0 w-screen z-50">
+        <div className="flex flex-row place-content-between fixed bottom-0 w-screen z-50">
 
             <div className='items-start m-4'>
-                <img className="w-44" src="img/logo copy.png" />
-                <p className="font-bold">
+                <img className="w-32 md:w-44" src="img/logo copy.png" />
+                <p className="font-bold text-xs md:text-base">
                     Nico Lacerenza <br />
                     Visual/Sound Artist
                 </p>
             </div>
 
-            <div className="flex flex-row w-fit mx-4 gap-1 mt-6">
+            <div className="flex flex-row w-fit mx-4 gap-1 place-content-end m-2">
                 <button className="btn bg-black btn-circle">
                     <a href='https://www.instagram.com/lcrt.jpg/'>
                         <svg
@@ -31,10 +31,9 @@ export const Footer: FC = () => {
                     </a>
                 </button>
                 <button className="btn bg-black btn-circle">
-                    <a href='https://twitter.com/lcrtbeats'>
-                        <svg viewBox="0 0 1200 1227" fill="none" xmlns="http://www.w3.org/2000/svg" width="20" height="20">
-                            <path d="M714.163 519.284L1160.89 0H1055.03L667.137 450.887L357.328 0H0L468.492 681.821L0 1226.37H105.866L515.491 750.218L842.672 1226.37H1200L714.137 519.284H714.163ZM569.165 687.828L521.697 619.934L144.011 79.6944H306.615L611.412 515.685L658.88 583.579L1055.08 1150.3H892.476L569.165 687.854V687.828Z" fill="white" />
-                        </svg>
+                    <a href='https://mastodon.social/@nico_lcrt'>
+                        <svg fill="currentColor" className="bi bi-mastodon" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" width="20" height="20">
+                        <path d="M11.19 12.195c2.016-.24 3.77-1.475 3.99-2.603.348-1.778.32-4.339.32-4.339 0-3.47-2.286-4.488-2.286-4.488C12.062.238 10.083.017 8.027 0h-.05C5.92.017 3.942.238 2.79.765c0 0-2.285 1.017-2.285 4.488l-.002.662c-.004.64-.007 1.35.011 2.091.083 3.394.626 6.74 3.78 7.57 1.454.383 2.703.463 3.709.408 1.823-.1 2.847-.647 2.847-.647l-.06-1.317s-1.303.41-2.767.36c-1.45-.05-2.98-.156-3.215-1.928a3.614 3.614 0 0 1-.033-.496s1.424.346 3.228.428c1.103.05 2.137-.064 3.188-.189zm1.613-2.47H11.13v-4.08c0-.859-.364-1.295-1.091-1.295-.804 0-1.207.517-1.207 1.541v2.233H7.168V5.89c0-1.024-.403-1.541-1.207-1.541-.727 0-1.091.436-1.091 1.296v4.079H3.197V5.522c0-.859.22-1.541.66-2.046.456-.505 1.052-.764 1.793-.764.856 0 1.504.328 1.933.983L8 4.39l.417-.695c.429-.655 1.077-.983 1.934-.983.74 0 1.336.259 1.791.764.442.505.661 1.187.661 2.046v4.203z"/>                        </svg>
                     </a>
                 </button>
                 <button className="btn bg-black btn-circle">
