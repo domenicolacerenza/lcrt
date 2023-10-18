@@ -11,7 +11,7 @@ export const NftView: FC = ({ }) => {
     <div className='md:hero mx-auto'>
        
 
-      <div className="md:static flex max-h-screen md:max-h-fit flex-wrap mx-auto mt-56 md:mt-0 content-start place-content-center gap-8">
+      <div className="md:static flex max-h-screen md:max-h-fit flex-wrap mx-auto mt-36 md:mt-0 content-start place-content-center gap-8">
        
         <Card id={1} title={"GLASS MASK #01"} subtitle={"AI GENERATED MASK"} content={""} modalContent={<br></br>} modalFrameSrc="" modalWindow={<br></br>}
         imgSrc={"/img/00004.jpg"} appleL={""} spotiL={""} bandcL={""}/> 

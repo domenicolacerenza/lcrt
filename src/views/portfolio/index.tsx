@@ -10,8 +10,8 @@ export const PortfolioView: FC = ({ }) => {
     }, [])
 
     return (
-        <div className='md:hero mx-auto mb-96'>
-            <div className="flex max-h-96 md:max-h-auto flex-wrap mt-96 mx-auto md:mt-8 content-start place-content-center gap-8">
+        <div className='md:hero mx-auto'>
+            <div className="flex max-h-96 md:max-h-auto flex-wrap mx-auto -mt-48 md:mb-0 content-start place-content-center gap-8">
 
 
                 <Card title={"Rava Vavàra (Labyrinthus)"} id={1} subtitle={"(SoundArt track, 7 min, Stereo)"} imgSrc={"/img/00039.jpg"}

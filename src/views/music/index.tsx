@@ -6,8 +6,8 @@ import { Card } from "components/Card";
 export const MusicView: FC = ({ }) => {
 
   return (
-    <div className='md:hero mx-auto mb-96'>
-      <div className="flex max-h-96 md:max-h-auto flex-wrap mt-96 mx-auto md:mt-8 content-start place-content-center gap-8">
+    <div className='md:hero mx-auto'>
+      <div className="flex max-h-96 md:max-h-auto flex-wrap mx-auto mb-60 md:mb-0 content-start place-content-center gap-8 ">
 
         <Card id={1} title={"Battle - Single"} subtitle={"01/02/2019"}
         modalFrameSrc={"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/568196121&color=%233e3d5e&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"}
@@ -61,7 +61,7 @@ export const MusicView: FC = ({ }) => {
           </button>
         </div>} content={undefined} appleL={""} spotiL={""} bandcL={""}        />
 
-        <div className="md:absolute md:bottom-20 md:left-0 mx-auto md:w-full text-center ">
+        <div className="md:absolute md:bottom-20 md:left-0 mx-auto md:w-full text-center">
           <Link className="mx-auto" href="https://linktr.ee/lcrt"> <button className="btn btn-outline btn-error">STREAM</button>
           </Link>
 
