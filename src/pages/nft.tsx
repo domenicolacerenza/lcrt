@@ -4,7 +4,7 @@ import { NftView } from "../views";
 
 const NFT: NextPage = (props) => {
   return (
-    <div className="w-screen">
+    <div>
       <Head>
         <title>LCRT - NFT</title>
         <meta

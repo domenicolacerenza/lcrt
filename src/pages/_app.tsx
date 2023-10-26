@@ -32,10 +32,12 @@ const App: FC<AppProps> = ({ Component, pageProps }) => {
       <link rel="icon" type="image/png" sizes="any" href="/howl.png" />
       <link rel="manifest" href="/manifest.json" />
       <link rel="shortcut icon" href="/howl.png" />
+      <link rel="me" href="https://mastodon.social/@nico_lcrt" />
+
       <ContextProvider>
-        <div className="flex flex-col h-screen w-full">
+        <div className="flex flex-col h-screen">
+        <AppBar />
           <Notifications />
-          <AppBar />
           <ContentContainer>
             <Component {...pageProps} />
             <Footer />

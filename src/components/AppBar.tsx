@@ -1,26 +1,20 @@
-import { FC } from 'react';
 import Link from "next/link";
-import dynamic from 'next/dynamic';
 import React, { useState } from "react";
-import { useAutoConnect } from '../contexts/AutoConnectProvider';
-import NetworkSwitcher from './NetworkSwitcher';
 import NavElement from './nav-element';
 
-const WalletMultiButtonDynamic = dynamic(
-  async () => (await import('@solana/wallet-adapter-react-ui')).WalletMultiButton,
-  { ssr: false }
-);
-
 export const AppBar: React.FC = () => {
-  const { autoConnect, setAutoConnect } = useAutoConnect();
-  const [isNavOpen, setIsNavOpen] = useState(false);
+
   return (
     <div>
       {/* NavBar / Header */}
-      <div className="navbar w-full h-auto place-content-between">
-        <Link href={'/'}><img className='w-32 ml-2 md:ml-6 justify-center' src="/img/LOGO.png" alt=''/> </Link>
+      <div className="navbar flex flex-row h-12">
+        <div className="navbar-start">
+          <Link href={'/'}><img className='w-32 ml-2 md:ml-6 justify-center' src="/img/LOGO.png" alt='' /> </Link>
+        </div>
+
+        <div className="navbar-end">
         <div className="hidden md:inline-flex justify-items gap-6">
-          <ul className="top-4 right-4 menu menu-horizontal text-2xl rounded-box bg-base-100 ">
+          <ul className="top-4 right-4 menu menu-horizontal text-2xl rounded-box bg-base-100 overflow-auto">
             <li>
               <NavElement
                 label="Home"
@@ -47,17 +41,18 @@ export const AppBar: React.FC = () => {
             </li>
           </ul>
         </div>
+
         <label
-            htmlFor="my-drawer"
-            className="btn btn-square p-4 border-0 btn-lg bg-transparent mx-4 md:hidden">
+          htmlFor="my-drawer"
+          className="btn btn-square p-2 border-0 btn-md bg-transparent mx-4 md:hidden">
 
-
-            <div className="space-y-2.5">
-              <div className={`h-0.5 w-8 bg-white`} />
-              <div className={`h-0.5 w-8 bg-white`} />
-              <div className={`h-0.5 w-8 bg-white`} />
-            </div>
-          </label>
+          <div className="space-y-2.5">
+            <div className={`h-0.5 w-8 bg-white`} />
+            <div className={`h-0.5 w-8 bg-white`} />
+            <div className={`h-0.5 w-8 bg-white`} />
+          </div>
+        </label>
+        </div>
       </div>
     </div>
 

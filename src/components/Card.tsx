@@ -38,7 +38,7 @@ export const Card = ({
                         modalWindow ? modalWindow
                             : modalFrameSrc ?
                                 <iframe className="mx-auto w-fit h-96 max-w-xl min-w-full" allow="autoplay" src={modalFrameSrc} width="640" height="640" />
-                                : imgSrc ? <img className='rounded-[15px]' src={imgSrc} alt={title} /> : ""
+                                : imgSrc ? <img className=' mx-auto rounded-[15px]' src={imgSrc} alt={title} /> : ""
                     }
 
                     <p className="text-center text-sm font-light tracking-widest m-4">{subtitle} </p>

@@ -11,7 +11,7 @@ export const ContentContainer: React.FC<Props> = ({ children }) => {
   return (
     <div className="flex-1 drawer h-52">
       <input id="my-drawer" type="checkbox" className="grow drawer-toggle" />
-      <div className="items-center drawer-content flex justify-between mb-0 md:mb-32">
+      <div className="items-center drawer-content md:flex md:justify-center">
         {children}
       </div>
       {/* SideBar / Drawer */}
@@ -19,7 +19,7 @@ export const ContentContainer: React.FC<Props> = ({ children }) => {
         
         <label htmlFor="my-drawer" className="drawer-overlay gap-6"></label>
 
-        <ul className="p-4 overflow-y-auto menu w-fit gap-10 sm:flex items-center my-auto text-xl rounded-box bg-base-100">
+        <ul className="py-4 overflow-auto menu w-fit sm:flex items-center my-auto text-xl rounded-box bg-base-100">
           <li>
           <NavElement
             label="Home"
@@ -45,7 +45,7 @@ export const ContentContainer: React.FC<Props> = ({ children }) => {
               />
             </li>
 
-            <div className="flex flex-row w-fit mx-4 gap-1 place-content-center ">
+            <div className="flex flex-col w-fit mx-4  place-content-center pt-4">
                 <button className="btn bg-black btn-circle">
                     <a href='https://www.instagram.com/lcrt.jpg/'>
                         <svg

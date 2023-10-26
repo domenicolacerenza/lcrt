@@ -4,9 +4,8 @@ import { HomeView } from "../views";
 
 const Home: NextPage = (props) => {
   return (
-    <div className="w-full">
+    <div>
       <Head>
-        <a rel="me" href="https://mastodon.social/@nico_lcrt">Mastodon</a>
         <title>LCRT XYZ</title>
         <meta
           name="description"

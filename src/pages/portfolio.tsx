@@ -4,7 +4,7 @@ import { PortfolioView } from "../views";
 
 const Portfolio: NextPage = (props) => {
   return (
-    <div className="w-full">
+    <div>
       <Head>
         <title>LCRT - Portfolio</title>
         <meta
