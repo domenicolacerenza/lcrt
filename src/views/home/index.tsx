@@ -21,9 +21,10 @@ export const HomeView = () => {
           </div>
         </div>
 
-
-        <h3 className='mx-auto w-96 md:w-full text-2xl md:text-4xl md:bottom-20 md:left-0 text-center m-8 '>la-sə-rāt _ Visual/Sound Artist <br />
-          Human since MCMXCVIII<br /></h3>
+        <div className="mb-24 md:mb-0">
+          <h3 className='mx-auto w-96 md:w-full text-2xl md:text-4xl md:bottom-20 md:left-0 text-center m-8 '>la-sə-rāt _ Visual/Sound Artist <br />
+            Human since MCMXCVIII<br /></h3>
+        </div>
 
       </div>
     </div>
