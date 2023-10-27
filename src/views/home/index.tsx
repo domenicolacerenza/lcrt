@@ -17,7 +17,7 @@ export const HomeView = () => {
             <img className='rounded-[15px]' src="/img/ab6761670000ecd44113acecee3e7fbae911e540.jpeg" />
           </div>
           <div className="w-72 h-auto md:w-96">
-            <img className='rounded-[15px]' src="/img/howl.png" alt="ROBOT" />
+            <img className='rounded-[15px]' src="/img/dirty.png" alt="ROBOT" />
           </div>
         </div>
 
