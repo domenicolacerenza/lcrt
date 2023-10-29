@@ -31,8 +31,8 @@ export const Card = ({
         <div>
             <input type="checkbox" id={"my_modal_" + String(id)} className="modal-toggle" />
             <div className="modal">
-                <div className="modal-box max-w-5xl md:max-w-2xl">
-                    <h1 className="font-bold text-2xl m-4">{title}</h1>
+                <div className="modal-box max-w-md md:max-w-2xl ">
+                    <h1 className="font-bold md:text-2xl text-xl mb-4">{title}</h1>
 
                     {
                         modalWindow ? modalWindow
@@ -43,10 +43,10 @@ export const Card = ({
 
                     <p className="text-center text-sm font-light tracking-widest m-4">{subtitle} </p>
 
-                    <p className="py-4">
+                    <p className="md:py-4">
                         {
                             modalContent ? modalContent
-                                : appleL ? <div className='flex flex-row mx-auto w-fit mx-4 gap-4 m-2'>
+                                : appleL ? <div className='flex flex-row mx-auto w-fit gap-4 m-2'>
                                     <button className="btn bg-black btn-circle">
                                         <a href={appleL}>
                                             <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30" viewBox="0 0 50 50 " fill="currentColor" >
@@ -71,8 +71,11 @@ export const Card = ({
                                 </div>
                                 : ""}
                     </p>
-                    <div className="modal-action justify-end m-2">
-                        <label htmlFor={"my_modal_" + String(id)} className="btn btn-square">x</label>
+                    <div className="modal-action justify-end md:m-2 -mt-1">
+                        <label htmlFor={"my_modal_" + String(id)} className="btn btn-circle btn-neutral bg-opacity-20">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24" fill="currentColor">
+                        <path d="M20.7457 3.32851C20.3552 2.93798 19.722 2.93798 19.3315 3.32851L12.0371 10.6229L4.74275 3.32851C4.35223 2.93798 3.71906 2.93798 3.32854 3.32851C2.93801 3.71903 2.93801 4.3522 3.32854 4.74272L10.6229 12.0371L3.32856 19.3314C2.93803 19.722 2.93803 20.3551 3.32856 20.7457C3.71908 21.1362 4.35225 21.1362 4.74277 20.7457L12.0371 13.4513L19.3315 20.7457C19.722 21.1362 20.3552 21.1362 20.7457 20.7457C21.1362 20.3551 21.1362 19.722 20.7457 19.3315L13.4513 12.0371L20.7457 4.74272C21.1362 4.3522 21.1362 3.71903 20.7457 3.32851Z"/></svg>
+                        </label>
                     </div>
                 </div>
             </div>

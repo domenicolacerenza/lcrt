@@ -9,7 +9,7 @@ const NFT: NextPage = (props) => {
         <title>LCRT - NFT</title>
         <meta
           name="description"
-          content="Basic Functionality"
+          content="Nico Lacerenza Visual Sound Artist LCRT XYZ NFT AI GENERATED 3D SOUNDART CRYPTO SOLANA EXCHANGE.ART"
         />
       </Head>
       <NftView />

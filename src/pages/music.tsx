@@ -9,7 +9,7 @@ const Music: NextPage = (props) => {
         <title>LCRT - MUSIC</title>
         <meta
           name="description"
-          content="Basic Functionality"
+          content="Nico Lacerenza Visual Sound Artist LCRT XYZ MUSIC PRODUCTION IDM ELECTRONIC DANCE"
         />
       </Head>
       <MusicView />

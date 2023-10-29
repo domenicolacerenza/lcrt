@@ -33,6 +33,7 @@ const App: FC<AppProps> = ({ Component, pageProps }) => {
       <link rel="manifest" href="/manifest.json" />
       <link rel="shortcut icon" href="/howl.png" />
       <link rel="me" href="https://mastodon.social/@nico_lcrt" />
+      <link rel="me" href="https://social.boom.army/@l3ch3_v17r1n3" />
 
       <ContextProvider>
         <div className="flex flex-col h-screen">

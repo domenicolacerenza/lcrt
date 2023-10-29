@@ -9,7 +9,7 @@ const Portfolio: NextPage = (props) => {
         <title>LCRT - Portfolio</title>
         <meta
           name="description"
-          content="Basic Functionality"
+          content="Nico Lacerenza Visual Sound Artist LCRT XYZ SOUNDART PERFORMANCE ART AI GENERATED VIDEO"
         />
       </Head>
       <PortfolioView />

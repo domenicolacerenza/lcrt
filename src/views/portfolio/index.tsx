@@ -33,7 +33,7 @@ export const PortfolioView: FC = ({ }) => {
                         modalContent={<p>Audio Video work, 3d Render and SoundArt track</p>}
                         modalFrameSrc="https://player.vimeo.com/video/617201375?h=0c9c227011" content={undefined} appleL={""} spotiL={""} bandcL={""} />
 
-                    <Card id={4} title={"Human Iteraction"} subtitle={"(printable PDF fanzine,SoundArt track, Video 2:20 min, Stereo)"} imgSrc="/img/hi.jpg"
+                    <Card id={4} title={"Human Interaction"} subtitle={"(printable PDF fanzine,SoundArt track, Video 2:20 min, Stereo)"} imgSrc="/img/hi.jpg"
                         modalContent={<div><p> For <Link className="underline" href="https://accademiaunidee.it/it/art-summer-school-borders-boundaries/">
                             Art Summer School Borders | Boundaries, Limes | Limen </Link> (09/2020), Human Interaction started from a frame sampled video experimentation taking the form of a self printable fanzine</p>
                             <div className="flex justify-center w-full"><Link href="/docs/rebuilding memories.pdf"> <button className="btn btn-outline btn-green ">rebuilding memories</button>
