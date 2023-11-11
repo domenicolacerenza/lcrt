@@ -10,6 +10,9 @@ export const MusicView: FC = ({ }) => {
       <div className="flex flex-col">
         <div className="flex flex-wrap mx-auto place-content-center gap-8 md:m-8 md:mb-40 mb-24">
 
+          <Card title={"VAULT (blowing kisses)"} subtitle={"[DEMO]"} content={undefined} appleL={""} spotiL={""} bandcL={""} 
+          modalFrameSrc={"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1662675060&color=%23e2bc84&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"}/>
+
           <Card id={10} title={"dirty - Single"} subtitle={"27/10/2023"} content={undefined} appleL={"https://music.apple.com/it/album/dirty-single/1713022032?l=en-GB"}
             spotiL={"https://open.spotify.com/album/3GElbDOVRBT4FszU9ylKpe?si=wd2KoDzgTVOKQAnM2JtmQA"} bandcL={"https://lcrt.bandcamp.com/album/dirty"}
             modalFrameSrc={"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1711827915&color=%235c6c7c&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"} />
