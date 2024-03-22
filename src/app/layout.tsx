@@ -30,7 +30,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
         <link rel="me" href="https://mastodon.social/@nico_lcrt" />
         <link rel="me" href="https://social.boom.army/@l3ch3_v17r1n3" />
       </head>
-      <main className="flex min-h-screen flex-col items-center justify-between p-6 ">
+      <main className="flex min-h-screen flex-col items-center justify-between p-6 bg-transparent ">
         {children}
         <Header></Header>
         <Menu></Menu>
