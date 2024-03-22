@@ -32,7 +32,7 @@ export default function Home() {
             sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation"
             src="https://embed.music.apple.com/it/playlist/deep-dive/pl.u-aeDZczXmAxg?l=en-GB"></iframe>
           <iframe className=" rounded-[18px] mb-24 -mt-16" src="https://open.spotify.com/embed/playlist/6MONuAr7qBCOiJq64OWwSM?utm_source=generator"
-            width="350" height="450" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            width="350" height="450" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
         </div>
         <h1 className="relative flex text-center font-bold md:text-9xl text-6xl md:-mt-26 -mt-40 mb-8">Waveform ◎ Refracted</h1>
       </div>
@@ -55,8 +55,8 @@ export default function Home() {
           <h1 className="text-3xl font-bold">[la-sə-rāt] </h1>
         </div>
         <h2 className="md:text-6xl text-4xl">Nico Lacerenza</h2>
-        <h2 className="md:text-4xl text-3xl font-mono">⚙︎ visual sound.artist <br></br>
-          <Link href={"mailto:lcrt.nico@gmail.com"} className="md:text-4xl text-3xl font-mono underline">☸︎ lcrt.nico@gmail.com</Link></h2>
+        <h2 className="md:text-4xl text-2xl font-mono">⚙︎ visual sound.artist <br></br>
+          <Link href={"mailto:lcrt.nico@gmail.com"} className="md:text-4xl text-2xl font-mono underline">☸︎ lcrt.nico@gmail.com</Link></h2>
       
       </div>
     </div>
