@@ -27,10 +27,11 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
 
         {/* Other link tags (keep these if needed) */}
         <link rel="apple-touch-icon" href="/icon.png" />
+        <link rel="stylesheet" href="./src/styles/global.css"/>
         <link rel="me" href="https://mastodon.social/@nico_lcrt" />
         <link rel="me" href="https://social.boom.army/@l3ch3_v17r1n3" />
       </head>
-      <main className="flex min-h-screen flex-col items-center justify-between p-6 bg-transparent ">
+      <main className="flex min-h-screen flex-col items-center justify-between p-6 bg-violet-600/6 ">
         {children}
         <Header></Header>
         <Menu></Menu>

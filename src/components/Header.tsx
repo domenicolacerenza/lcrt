@@ -4,14 +4,14 @@ const Header = () => {
 
     return (
         <div className="z-10 max-w-screen w-full items-center justify-between font-mono text-xs lg:flex ">
-            <p className="fixed left-0 text-lg top-0 text-gray-700 flex w-full justify-center bg-gradient-to-b from-zinc-200 py-4 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-500/0 dark:from-inherit  lg:w-auto  lg:rounded-xl lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30 md:m-0 lg:m-6">
+            <div className="fixed left-0 text-lg top-0 text-gray-700 flex w-full justify-center bg-gradient-to-b from-zinc-200 py-4 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-500/0 dark:from-inherit  lg:w-auto  lg:rounded-xl lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30 md:m-0 lg:m-6">
                 <Image
                     src="/img/LOGO.png"
                     alt="LCRT Logo"
                     width={120}
                     height={12}
                     priority
-                /></p>
+                /></div>
             <div className="fixed right-4 bottom-1/4">
                 <div className="flex flex-col w-fit mx-4 place-items-center pt-4">
                     <button className="btn bg-black btn-circle">

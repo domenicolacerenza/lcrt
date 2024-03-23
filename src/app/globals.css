@@ -2,9 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
+main {
   font-family: -apple-system, Helvetica Neue, sans-serif;
-  background-color: #1f1051;
+  background: rgb(31, 16, 81);
+  /*linear-gradient(#1f1051, rgb(0, 0, 0)); */
 }
 
 @layer utilities {

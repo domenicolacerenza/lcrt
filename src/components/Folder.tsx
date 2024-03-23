@@ -21,20 +21,20 @@ export const Folder = ({
             <div className="modal mx-auto" role="dialog">
                 <div className="modal-box w-10/12 max-w-fit md:h-10/12 h-fit mt-44 md:mt-0 backdrop-blur-md bg-neutral-400/10">
                     
-                    <label htmlFor={"fold_" + String(id)} className="btn btn-md btn-circle btn-ghost fixed right-4 top-4 m-6">
+                    <label htmlFor={"fold_" + String(id)} className="btn btn-md btn-circle btn-ghost fixed right-4 top-2 md:m-6 m-4">
                         <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24" fill="currentColor">
                             <path d="M20.7457 3.32851C20.3552 2.93798 19.722 2.93798 19.3315 3.32851L12.0371 10.6229L4.74275 3.32851C4.35223 2.93798 3.71906 2.93798 3.32854 3.32851C2.93801 3.71903 2.93801 4.3522 3.32854 4.74272L10.6229 12.0371L3.32856 19.3314C2.93803 19.722 2.93803 20.3551 3.32856 20.7457C3.71908 21.1362 4.35225 21.1362 4.74277 20.7457L12.0371 13.4513L19.3315 20.7457C19.722 21.1362 20.3552 21.1362 20.7457 20.7457C21.1362 20.3551 21.1362 19.722 20.7457 19.3315L13.4513 12.0371L20.7457 4.74272C21.1362 4.3522 21.1362 3.71903 20.7457 3.32851Z" /></svg>
                     </label>
 
 
 
-                    <h1 className=" font-semibold text-6xl text-center m-2">{title}</h1>
+                    <h1 className=" font-semibold md:text-6xl text-2xl text-center m-2 mb-8 ">{title}</h1>
 
-                    <div className="flex flex-wrap mx-auto place-content-center md:gap-6 gap-2 md:mb-4 mb-0 md:p-8 p-2">{modalWindow}</div>
+                    <div className="flex flex-wrap mx-auto place-content-center md:gap-6 gap-4 md:mb-4 mb-0 md:p-8 p-0">{modalWindow}</div>
                     {
                         mLink ?
-                            <p className="md:fixed bottom-4 md:bottom-0 left-0 place-content-center flex h-6 w-full items-end justify-center ">
-                                <div className='flex flex-row mx-auto w-fit gap-4 m-2 my-6 mb-12 md:mb-0'>
+                            <div className="md:fixed bottom-2 md:bottom-0 left-0 place-content-center flex h-6 w-full items-end justify-center mt-12">
+                                <div className='flex flex-row mx-auto w-fit gap-4'>
                                     <button className="btn bg-black btn-circle">
                                         <a href="https://music.apple.com/it/artist/lcrt/1450918332?l=en-GB">
                                             <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24" height="24" viewBox="0 0 50 50 " fill="currentColor" >
@@ -71,7 +71,7 @@ export const Folder = ({
                                         </a>
                                     </button>
                                 </div>
-                            </p>
+                            </div>
                             : ""}
                 </div>
             </div>
