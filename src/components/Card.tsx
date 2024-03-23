@@ -31,7 +31,7 @@ export const Card = ({
         <div>
             <input type="checkbox" id={"my_modal_" + String(id)} className="modal-toggle" />
             <div className="modal">
-                <div className="modal-box w-2/3 bg-zinc-800/85">
+                <div className="modal-box w-full bg-zinc-800/85">
                     <h1 className="font-bold md:text-2xl text-xl mb-4">{title}</h1>
 
                     {
@@ -41,7 +41,7 @@ export const Card = ({
                                 : imgSrc ? <img className=' mx-auto rounded-[15px]' src={imgSrc} alt={title} /> : ""
                     }
 
-                    <p className="text-center text-sm font-light tracking-widest m-4">{subtitle} </p>
+                    <p className="text-center text-sm font-light m-4">{subtitle} </p>
 
                     <div>
                         {

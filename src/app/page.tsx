@@ -68,14 +68,14 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="mx-auto md:mt-8 mt-12 w-4/6 mb-24">
+      <div className="mx-auto md:mt-8 mt-12 w-5/6 mb-24">
         <div className="flex flex-row place-items-center">
           <h1 className="md:text-9xl text-6xl font-bold">LCRT</h1>
           <h1 className="text-3xl font-bold">[la-sə-rāt] </h1>
         </div>
         <h2 className="md:text-6xl text-4xl">Nico Lacerenza</h2>
-        <h2 className="md:text-4xl text-xl font-mono">⚙︎ visual sound.artist <br></br>
-          <Link href={"mailto:lcrt.nico@gmail.com"} className="md:text-4xl text-xl font-mono underline">☸︎ lcrt.nico@gmail.com</Link></h2>
+        <h2 className="md:text-4xl text-md font-mono">⚙︎ visual sound.artist <br></br>
+          <Link href={"mailto:lcrt.nico@gmail.com"} className="md:text-4xl text-md font-mono underline">☸︎ lcrt.nico@gmail.com</Link></h2>
 
       </div>
     </div>

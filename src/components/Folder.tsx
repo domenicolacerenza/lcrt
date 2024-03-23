@@ -33,8 +33,8 @@ export const Folder = ({
                     <div className="flex flex-wrap mx-auto place-content-center md:gap-6 gap-4 md:mb-4 mb-0 md:p-8 p-0">{modalWindow}</div>
                     {
                         mLink ?
-                            <div className="md:fixed bottom-2 md:bottom-0 left-0 place-content-center flex h-6 w-full items-end justify-center mt-12">
-                                <div className='flex flex-row mx-auto w-fit gap-4'>
+                            <div className="md:fixed bottom-2 left-0 place-content-center flex h-6 w-full items-end justify-center mt-12">
+                                <div className='flex flex-row mx-auto w-fit gap-4 m-2'>
                                     <button className="btn bg-black btn-circle">
                                         <a href="https://music.apple.com/it/artist/lcrt/1450918332?l=en-GB">
                                             <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24" height="24" viewBox="0 0 50 50 " fill="currentColor" >
