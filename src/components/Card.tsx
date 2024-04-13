@@ -80,7 +80,7 @@ export const Card = ({
                 </div>
             </div>
             
-            <div className="card md:w-56 w-36 md:h-32 h-20 -m-1 md:m-0 bg-neutral-950/80">
+            <div className="card md:w-64 w-32 md:h-40 h-24 -m-1 md:m-0 bg-neutral-950/80">
               
                 <div className="card-body -m-4">
                     <h2 className=" md:text-lg text-sm md:font-medium font-extralight -mt-2 md:mb-4 -mb-24">{title}</h2>

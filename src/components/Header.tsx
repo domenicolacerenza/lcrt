@@ -4,7 +4,7 @@ const Header = () => {
 
     return (
         <div className="z-10 max-w-screen w-full items-center justify-between font-mono text-xs lg:flex ">
-            <div className="fixed left-0 text-lg top-0 text-gray-700 flex w-full justify-center bg-gradient-to-b from-zinc-200 py-4 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-500/0 dark:from-inherit  lg:w-auto  lg:rounded-xl lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30 md:m-0 lg:m-6">
+            <div className="fixed lg:left-4 left-0 text-lg lg:top-4 top-0 text-gray-700 flex w-full justify-center py-6 backdrop-blur-sm lg:w-auto lg:rounded-xl lg:p-6 bg-neutral-400/10 md:m-0 lg:m-6">
                 <Image
                     src="/img/LOGO.png"
                     alt="LCRT Logo"
@@ -13,12 +13,12 @@ const Header = () => {
                     priority
                 /></div>
             <div className="fixed right-4 bottom-1/4">
-                <div className="flex flex-col w-fit mx-4 place-items-center pt-4">
-                    <button className="btn bg-black btn-circle">
+                <div className="flex flex-col w-fit mx-4 place-items-center pt-4 gap-4">
+                    <button className="btn btn-md btn-ghost bg-transparent btn-circle">
                         <a href='https://www.instagram.com/lcrt.jpg/'>
                             <svg
-                                fill='currentColor'
-                                width="24" height="24"
+                                fill='#E1D9E2'
+                                width="36" height="36"
                                 version="1.1"
                                 viewBox="0 0 600 600"
                                 xmlns="http://www.w3.org/2000/svg">
@@ -30,16 +30,16 @@ const Header = () => {
                             </svg>
                         </a>
                     </button>
-                    <button className="btn bg-black btn-circle">
+                    <button className="btn btn-md btn-ghost bg-transparent btn-circle">
                         <a href='https://lcrt.bandcamp.com/'>
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" width="24" height="24" fill="currentColor" fillRule="evenodd" clipRule="evenodd">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" width="38" height="38" fill="#E1D9E2" fillRule="evenodd" clipRule="evenodd">
                                 <path d="M15,3C8.373,3,3,8.373,3,15s5.373,12,12,12s12-5.373,12-12S21.627,3,15,3z M17.333,18.774H8.578l4.089-7.547h8.755L17.333,18.774z" fillRule="evenodd" clipRule="evenodd" /></svg>
                         </a>
                     </button>
-                    <button className="btn bg-black btn-circle">
+                    <button className="btn btn-md btn-ghost bg-transparent btn-circle">
                         <a href='mailto:lcrt.nico@gmail.com'>
-                            <svg viewBox="0 0 24 24" fill="currentColor" width="24" height="24">
-                                <path d="M3 8L8.44992 11.6333C9.73295 12.4886 10.3745 12.9163 11.0678 13.0825C11.6806 13.2293 12.3194 13.2293 12.9322 13.0825C13.6255 12.9163 14.2671 12.4886 15.5501 11.6333L21 8M6.2 19H17.8C18.9201 19 19.4802 19 19.908 18.782C20.2843 18.5903 20.5903 18.2843 20.782 17.908C21 17.4802 21 16.9201 21 15.8V8.2C21 7.0799 21 6.51984 20.782 6.09202C20.5903 5.71569 20.2843 5.40973 19.908 5.21799C19.4802 5 18.9201 5 17.8 5H6.2C5.0799 5 4.51984 5 4.09202 5.21799C3.71569 5.40973 3.40973 5.71569 3.21799 6.09202C3 6.51984 3 7.07989 3 8.2V15.8C3 16.9201 3 17.4802 3.21799 17.908C3.40973 18.2843 3.71569 18.5903 4.09202 18.782C4.51984 19 5.07989 19 6.2 19Z" stroke="#000000" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+                            <svg viewBox="0 0 32 32" fill="#E1D9E2" width="36" height="36">
+                            <path d="M0 16q0-3.232 1.28-6.208t3.392-5.12 5.12-3.392 6.208-1.28q3.264 0 6.24 1.28t5.088 3.392 3.392 5.12 1.28 6.208v6.016q0 2.496-1.76 4.224t-4.224 1.76q-2.272 0-3.936-1.472t-1.984-3.68q-1.952 1.152-4.096 1.152-2.176 0-4-1.056t-2.944-2.912-1.056-4.032q0-3.296 2.336-5.632t5.664-2.368 5.664 2.368 2.336 5.632v6.016q0 0.8 0.608 1.408t1.408 0.576q0.8 0 1.408-0.576t0.576-1.408v-6.016q0-3.264-1.6-6.016t-4.384-4.352-6.016-1.632-6.016 1.632-4.384 4.352-1.6 6.016 1.6 6.048 4.384 4.352 6.016 1.6h2.016q0.8 0 1.408 0.608t0.576 1.408-0.576 1.408-1.408 0.576h-2.016q-3.264 0-6.208-1.248t-5.12-3.424-3.392-5.12-1.28-6.208zM12 16q0 1.664 1.184 2.848t2.816 1.152 2.816-1.152 1.184-2.848-1.184-2.816-2.816-1.184-2.816 1.184-1.184 2.816z"></path>
                             </svg>
                         </a>
                     </button>
