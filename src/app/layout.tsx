@@ -2,6 +2,7 @@ require("./globals.css");
 import Menu from "@/components/Menu";
 import Header from "@/components/Header";
 import AudioLoop from "@/components/Audio";
+import Footer from "@/components/Footer";
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
@@ -31,8 +32,9 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
         <link rel="me" href="https://mastodon.social/@nico_lcrt" />
         <link rel="me" href="https://social.boom.army/@l3ch3_v17r1n3" />
       </head>
-      <main className="flex min-h-screen flex-col items-center justify-between p-6 bg-violet-600/6 ">
+      <main className="flex min-h-screen flex-col items-center justify-between p-6">
         {children}
+        <Footer></Footer>
         <Header></Header>
         <Menu></Menu>
         <AudioLoop></AudioLoop>
