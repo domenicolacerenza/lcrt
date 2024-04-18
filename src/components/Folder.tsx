@@ -16,7 +16,7 @@ export const Folder = ({
 }: FolderProps) => {
     return (
         <div>
-            <label htmlFor={"fold_" + String(id)} className="btn btn-md btn-ghost backdrop-blur-sm bg-[#E1D9E2]/20 font-medium text-2xl text-[#E1D9E2]">{title}</label>
+            <label htmlFor={"fold_" + String(id)} className="btn btn-md btn-ghost backdrop-blur-sm bg-[#EDD7B0]/10 font-medium text-2xl text-[#E1D9E2]">{title}</label>
             <input type="checkbox" id={"fold_" + String(id)} className="modal-toggle" />
             <div className="modal mx-auto" role="dialog">
                 <div className="modal-box w-10/12 max-w-fit md:h-10/12 h-fit mt-28 md:mt-0 backdrop-blur-md bg-neutral-400/10">

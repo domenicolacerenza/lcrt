@@ -5,7 +5,7 @@ const Header = () => {
 
     return (
         <div className="z-10 max-w-screen w-full items-center justify-between font-mono text-xs lg:flex ">
-            <div className="fixed lg:left-4 left-0 text-lg lg:top-4 top-0 text-gray-700 flex w-full justify-center py-6 backdrop-blur-sm lg:w-auto lg:rounded-xl lg:p-6 bg-neutral-400/10 md:m-0 lg:m-2">
+            <div className="fixed lg:left-4 left-0 text-lg lg:top-4 top-0 text-gray-700 flex w-full justify-center py-6 backdrop-blur-sm lg:w-auto lg:rounded-xl lg:p-6 bg-[#EDD7B0]/10 md:m-0 lg:m-2">
             <Link href={'/'}>
                 <Image
                     src="/img/LOGO.png"
@@ -14,7 +14,7 @@ const Header = () => {
                     height={12}
                     priority
                 /></Link></div>
-            <div className="fixed right-4 bottom-1/4">
+            <div className="fixed right-2 bottom-28">
                 <div className="flex flex-col w-fit mx-4 place-items-center pt-4 gap-4">
                     <button className="btn btn-md btn-ghost bg-transparent btn-circle">
                         <a href='https://www.instagram.com/lcrt.jpg/'>
