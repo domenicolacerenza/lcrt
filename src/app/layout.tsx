@@ -22,13 +22,13 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="default" />
         <meta name="apple-mobile-web-app-title" content="LCRT XYZ" />
-        <meta name="description" content="Nico Lacerenza - Visual Sound Artist" />
+        <meta name="description" content="Nico Lacerenza - Visual Sound Artist ◎ portal journey begins" />
         <meta name="format-detection" content="telephone=no" />
         <meta name="mobile-web-app-capable" content="yes" />
 
         {/* Other link tags (keep these if needed) */}
         <link rel="apple-touch-icon" href="/icon.png" />
-        <link rel="stylesheet" href="./src/styles/global.css"/>
+        <link rel="stylesheet" href="./src/styles/global.css" />
         <link rel="me" href="https://mastodon.social/@nico_lcrt" />
         <link rel="me" href="https://social.boom.army/@l3ch3_v17r1n3" />
       </head>
@@ -37,7 +37,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
         <Footer></Footer>
         <Header></Header>
         <Menu></Menu>
-        <AudioLoop></AudioLoop>
+        {/*<AudioLoop></AudioLoop>*/}
       </main>
     </html>
   );
