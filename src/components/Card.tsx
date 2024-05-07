@@ -31,13 +31,13 @@ export const Card = ({
         <div>
             <input type="checkbox" id={"my_modal_" + String(id)} className="modal-toggle" />
             <div className="modal">
-                <div className="modal-box w-full bg-zinc-800/85">
+                <div className="modal-box w-full bg-zinc-600/65">
                     <h1 className="font-bold md:text-2xl text-xl mb-4">{title}</h1>
 
                     {
                         modalWindow ? modalWindow
                             : modalFrameSrc ?
-                                <iframe className="mx-auto w-44 h-44 max-w-xl min-w-full" allow="autoplay" src={modalFrameSrc} width="300" height="640" />
+                                <iframe className="mx-auto w-44 h-44 max-w-xl min-w-full" allow="autoplay" src={modalFrameSrc} width="300" height="450" />
                                 : imgSrc ? <img className=' mx-auto rounded-[15px]' src={imgSrc} alt={title} /> : ""
                     }
 

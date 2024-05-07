@@ -2,6 +2,7 @@ require("./globals.css");
 import Menu from "@/components/Menu";
 import Header from "@/components/Header";
 import AudioLoop from "@/components/Audio";
+import Image from "next/image";
 import Footer from "@/components/Footer";
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
@@ -33,6 +34,15 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
         <link rel="me" href="https://social.boom.army/@l3ch3_v17r1n3" />
       </head>
       <main className="flex min-h-screen flex-col items-center justify-between p-6">
+      <div className=" flex mx-auto md:-mt-12 -mt-8 sm:-mb-40 mb-0">
+        <Image
+          src="/img/logoo.svg"
+          alt="_Logo0"
+          width={150}
+          height={35}
+          priority
+        />
+      </div>
         {children}
         <Footer></Footer>
         <Header></Header>

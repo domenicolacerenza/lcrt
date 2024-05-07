@@ -6,7 +6,7 @@ main {
   font-family: -apple-system, Helvetica Neue, sans-serif;
   color:#EDD7B0;
   background: #CA9B84;
-  /*linear-gradient(#1f1051, rgb(0, 0, 0)); */
+  /*linear-gradient(#c4a0a5)); */
 }
 
 @layer utilities {
