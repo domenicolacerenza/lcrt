@@ -14,6 +14,12 @@ const Menu = () => {
           <>
             <div className="flex flex-wrap mx-auto place-content-center md:gap-6 gap-4 mb-4">
 
+              <Card title={"Mida - Single"} subtitle={"◎turn anything into gold◎"} content={"undefined"} 
+              appleL={'https://music.apple.com/album/mida/1744570531?i=1744570533'}
+              spotiL={'https://open.spotify.com/album/3ItY4g99iZrgBIqBpiLmkX'}
+              bandcL={'https://lcrt.bandcamp.com/track/mida'} modalFrameSrc="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1813655748%3Fsecret_token%3Ds-Mj0sKznYiBz&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true">
+                
+              </Card>
               <Card id={9} title={"Undefined Landscapes - Single"} subtitle={"portal journey begins ◎"} content={""}
                 modalFrameSrc="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1803082323%3Fsecret_token%3Ds-84ydPdfcpdO&color=%23ff5500&auto_play=false&hide_related=false&show_comments=false&show_user=false&show_reposts=false&show_teaser=true&visual=true&buying=false"
                 appleL={"https://geo.music.apple.com/album/1740904572?i=1740904576"} spotiL={"https://open.spotify.com/track/0caMaRhtJarY364EOZJHlZ?si=b430a3777e14497e"} bandcL={"https://lcrt.bandcamp.com/track/undefined-landscapes"}></Card>
