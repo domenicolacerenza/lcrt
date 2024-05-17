@@ -20,7 +20,7 @@ export default function Home() {
               </svg> Pre Add</a>
           </button>
           <button className="btn btn-lg h-fit border-transparent place-items-center bg-[#b98794]">
-            <a className='flex flex-row place-items-center gap-4 text-[#686a81]' href="https://music.apple.com/album/undefined-landscapes-ep/1744414032">
+            <a className='flex flex-row place-items-center gap-4 text-[#686a81]' href="https://lcrt.bandcamp.com/album/undefined-landscapes">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" width="42" height="42" fill="#E1D9E2" >
                 <path d="M15,3C8.373,3,3,8.373,3,15s5.373,12,12,12s12-5.373,12-12S21.627,3,15,3z M17.333,18.774H8.578l4.089-7.547h8.755L17.333,18.774z" fillRule="evenodd" clipRule="evenodd" />
               </svg> Pre Order</a>
