@@ -9,7 +9,7 @@ export default function EP() {
         <div className=" mx-12 mb:-mt-12 mt-2">
           <h1 className="text-center font-black md:text-6xl text-2xl">LCRT • Undefined Landscapes EP <br></br> OUT 31/05</h1>
         </div>
-        <Link appleL={'https://www.apple.com'} spotiL={'https://www.apple.com'} bandcL={'https://www.apple.com'}></Link>
+        <Link appleL={'https://www.apple.com'} spotiL={'https://www.apple.com'} bandcL={'https://www.apple.com'} soundL={''}></Link>
 
       </div>
       <div className='flex md:flex-row flex-col place-items-center place-content-evenly w-4/6 my-4'>
@@ -38,7 +38,8 @@ export default function EP() {
             <Link
               appleL={'https://music.apple.com/album/mida/1744570531?i=1744570533'}
               spotiL={'https://open.spotify.com/album/3ItY4g99iZrgBIqBpiLmkX'}
-              bandcL={'https://lcrt.bandcamp.com/track/mida'}>
+              bandcL={'https://lcrt.bandcamp.com/track/mida'} soundL=''>
+            
             </Link>
             <iframe className="rounded-[15px] w-[370px] h-[120px] my-2 mx-auto" allow="autoplay" 
             src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1813655748%3Fsecret_token%3Ds-Mj0sKznYiBz&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
@@ -52,7 +53,7 @@ export default function EP() {
             <Link
               appleL={'https://music.apple.com/album/undefined-landscapes-single/1740904572'}
               spotiL={'https://open.spotify.com/track/0caMaRhtJarY364EOZJHlZ?si=b430a3777e14497e'}
-              bandcL={'https://lcrt.bandcamp.com/track/undefined-landscapes'}>
+              bandcL={'https://lcrt.bandcamp.com/track/undefined-landscapes'} soundL=''>
             </Link>
             <iframe className="rounded-[15px] w-[370px] h-[120px] my-2 mx-auto" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1803082323&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
           </div>
@@ -71,7 +72,25 @@ export default function EP() {
         </div>
 
       </div>
-    </div>
+    
+      <div className=" hidden flex-row w-10/12 place-content-center mx-auto md:-mt-6 -mt-4 mb-8" >
+        <iframe height="400" className=" rounded-[15px] md:w-64 md:h-64 w-40 h-40 -m-4 -my-4" src="https://player.vimeo.com/video/935037494?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" />
+        <iframe height="400" className=" rounded-[15px] md:w-64 md:h-64 w-40 h-40 -m-6 mt-8" src="https://player.vimeo.com/video/935029672?h=03947efb64&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" />
+        <iframe height="400" className=" rounded-[15px] md:w-64 md:h-64 w-40 h-40 -m-4 -my-4" src="https://player.vimeo.com/video/935031122?h=452d1d40a1&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" />
+      </div>
 
+      <div className="hidden place-content-center gap-8 md:mt-12 md:mx-8 mx-0">
+                <div className=" w-24 h-auto -mx-6 md:-mx-2">
+                    <img className='rounded-[15px] shadow-lg' src="/img/vanity/z3.jpg" alt=" z3" />
+                </div>
+                <div className="w-24 h-auto -mx-12 md:-mx-2 mt-2">
+                    <img className='rounded-[15px] shadow-lg' src="/img/vanity/ego.jpg" />
+                </div>
+                <div className="w-24 h-auto -mx-6 md:-mx-2">
+                    <img className='rounded-[15px] shadow-lg' src="/img/vanity/x2.jpg" alt="x2" />
+                </div>
+            </div>
+
+    </div>
   );
 }

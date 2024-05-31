@@ -1,9 +1,16 @@
 require("./globals.css");
+import dynamic from 'next/dynamic'
 import Menu from "@/components/Menu";
 import Header from "@/components/Header";
 import AudioLoop from "@/components/Audio";
 import Image from "next/image";
 import Footer from "@/components/Footer";
+import { SpeedInsights } from "@vercel/speed-insights/next"
+import { Analytics } from "@vercel/analytics/react"
+
+const DynamicMenu = dynamic(() => import('../components/Menu'), {
+  loading: () => <p>Loading...</p>,
+})
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
@@ -46,7 +53,9 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
         {children}
         <Footer></Footer>
         <Header></Header>
-        <Menu></Menu>
+        <DynamicMenu />
+        <Analytics />
+        <SpeedInsights />
         {/*<AudioLoop></AudioLoop>*/}
       </main>
     </html>
